@@ -1,1 +1,25 @@
-
+package Week1;
+public class DifferenceObjectsClasses {
+    String firstname;
+    String lastname;
+    int age;
+    //The class "DifferenceObjectsClasses" is defined by the variables firstname lastname and age.
+    
+    // The class is made up of a conducter and an output method.
+    public DifferenceObjectsClasses(String firstname, String lastname, int age) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+        System.out.println("First name: " + firstname);
+        System.out.println("Last name: " + lastname);
+        System.out.println("Age: " + age);
+        //This creates a generalized output for when a class is called upon.
+        //All outputs from this class will appear the same as the "template" has been created trough the print function.
+    }
+    public static void main(String[] args) {
+            new DifferenceObjectsClasses("Jane", "Doe", 20);
+            new DifferenceObjectsClasses("John", "Doe", 22);
+            //Both of these sections represent objects as they create a specific instance of the "DifferenceObjectsClasses" class.
+        //This section simply assigns a unique value or string to each element of the template as it was previously created within the class. 
+    }
+}
