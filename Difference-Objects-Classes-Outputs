@@ -1,1 +1,9 @@
+/Users/alyssajessamine/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=59044:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/alyssajessamine/IdeaProjects/CSC272/out/production/CSC272 Week1.DifferenceObjectsClasses
+First name: Jane
+Last name: Doe
+Age: 20
+First name: John
+Last name: Doe
+Age: 22
 
+Process finished with exit code 0
